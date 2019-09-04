@@ -74,9 +74,9 @@ def numgame():
         comment()
         return
     elif y == '/start':
-        random_number = random.randint(0, 11)
-
+        
         def number_game():
+            random_number = random.randint(0, 11)
             os.system('cls')
             input_number = int(input("Guess the number between 0 to 10 \n"))
 
