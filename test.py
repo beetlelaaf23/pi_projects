@@ -64,7 +64,6 @@ def comment():
 
 
 def numgame():
-    import random
     print('\n[NumberGame]')
     print('\nWelcome to the number game!\n')
     y = input('type "/start" to begin. or type "/close" to exit\n>')
